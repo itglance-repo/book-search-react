@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgb(230, 54, 54),black);
+  height: 100vh;
+}
+
+.container{
+  background-color: rgb(219, 208, 208);
+  padding: 10px;
+}
+
+.btn{
+  height: 50px;
+  background-color:#c94938;
+  color: white;
+}
+
+.add-form,.addBookForm,.search-book{
+  display: flex;
+  flex-direction: column;
+}
+.book-list{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 0.5px solid grey;
+}
+.book-list>img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.add-form>input{
+  height: 40px;
+}
+
+.book-list-container{
+  margin-bottom: 10px;
+}
+
+
